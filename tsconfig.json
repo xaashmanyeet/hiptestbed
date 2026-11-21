@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": { "strict": true },
+  // tools/ holds Node scripts, not app code. They import with explicit .ts
+  // extensions because Node requires them and Metro does not, which this
+  // compiler cannot be configured for at the same time as the app. They are
+  // checked by being run: ./tools/test.sh
+  "exclude": ["tools", "node_modules", "ios", "android"]
+}

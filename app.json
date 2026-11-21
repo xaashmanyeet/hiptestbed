@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "HIPtestbed",
+    "slug": "hiptestbed",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.aashman.hiptestbed",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "icon": "./assets/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "HIPtestbed uses the camera to photograph supplement labels."
+        }
+      ],
+      "expo-status-bar",
+      "expo-sharing"
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
